@@ -1,0 +1,10 @@
+.content {
+    padding: 69px 63px;
+    width: calc(100% - 300px);
+    transition: all .2s linear;
+    overflow: auto;
+}
+.content.spread {
+    width: 100%;
+    transition: all .2s linear;
+}

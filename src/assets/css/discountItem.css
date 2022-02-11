@@ -1,0 +1,49 @@
+.discount-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.discount-item .img-wrapper {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.discount-item .img-wrapper img {
+  border-radius: 5px;
+}
+
+.discount-item .img-wrapper .tag {
+  position: absolute;
+  width: 40px;
+  height: 14px;
+  left: 54px;
+  top: 8px;
+  background: #fabf01;
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #000000;
+}
+
+.discount-item .img-wrapper img {
+  width: 100%;
+}
+
+.discount-item .discount-content h5 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.discount-item .discount-content p {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
